@@ -4,7 +4,7 @@ $(function(){
      * 跳转到帮助中心
      */
     $("#Help_center").click(function(){
-        location.href = "../html/help.html";
+        location.href = "help.html";
     })
 
     /**
@@ -18,6 +18,6 @@ $(function(){
      * 跳转到了解更多
      */
     $(".buy-fa").click(function(){
-        location.href="../html/related.html";
+        location.href="related.html";
     });
 })

@@ -1,7 +1,7 @@
 $(function(){
     /*跳转到首页 */
     $("#Home_page").click(function(){
-        location.href = "sharp-index.html";
+        location.href = "index.html";
     })
     
     /**

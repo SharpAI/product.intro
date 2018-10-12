@@ -390,6 +390,7 @@ ul li{
     display: inline-block;
     width: 0.9rem;
     height: 0.9rem;
+    line-height: 0.9rem;
     background: url(../img/img5.png)no-repeat;
     font-weight: bold;
     font-size: 170%;
@@ -436,8 +437,8 @@ ul li{
     .body-we .we-ul span{
         float: right;
         position: relative;
-        bottom: 1.16rem;
-        right: 1.17rem;
+        bottom: 0.95rem;
+        right: 1.25rem;
         font-size: 150%;
         font-weight: bold;
         font-family: "微软雅黑";

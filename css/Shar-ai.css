@@ -531,8 +531,9 @@ ul li{
         padding-left: 0.5rem;
     }
     .now-we{
-        width: 46%;
-        height: 43%;
+        width: 45%;
+        height: 0.8rem;
+        line-height: 0.8rem;
         margin-top: 0.5rem;
         font-size: 100%;
         margin-left: 0.6rem;
@@ -641,7 +642,8 @@ ul li{
     }
     .now-we{
         width: 46%;
-        height: 43%;
+        height: 0.8rem;
+        line-height: 0.8rem;
         margin-top: 0.5rem;
         font-size: 100%;
     }

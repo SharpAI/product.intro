@@ -220,6 +220,19 @@ ul li{
     .theer-right .four-ul{
         padding-right: 3.4rem;
     }
+    .advantage-tow{
+        width: 78%;
+        height: 4.5rem;
+        margin: 5rem 0px 0px 0px;
+    }
+    .value-one {
+        color: rgb(153, 153, 153);
+        font-size: 70%;
+        width: 81%;
+        margin-left: 18.6%;
+        position: relative;
+        top: 1.5rem;
+    }
 }
 @media screen and (max-width:1024px) {
     .theer-left .two-ul{
@@ -229,22 +242,26 @@ ul li{
     .theer-right .four-ul{
         padding-right: 1rem;
     }
+    .advantage-tow{
+        width: 86.5%;
+        height: 4.5rem;
+        margin: 5rem 0px 0px 0.3rem;
+    }
 }
 @media screen and (min-width:1024px) {
 
     .bottom-obe a{
         position: relative;
-        top: 1.2rem;
-        left: 1.9rem;
+        top: 1.45rem;
+        left: 2rem;
     }
-    .advantage-tow{
-        width: 85%;
-        height: 4.5rem;
-        margin: 5rem 0px 0px 0px;
-    }
-    .advantage-tow{
-        margin: 5rem 0px 0px 0px;
-        
+    .value-one {
+        color: rgb(153, 153, 153);
+        font-size: 70%;
+        width: 81%;
+        margin-left: 18.6%;
+        position: relative;
+        top: 1.5rem;
     }
     .advantage-one{
         margin: 5rem 0px 0px 0px;
@@ -273,6 +290,9 @@ ul li{
     .advantage-tow{
         width: 85%;
         height: 4.5rem;
+    }
+    .advantage-one{
+        margin: 5rem 0px 0px 0px;
     }
 }
 
@@ -305,9 +325,22 @@ ul li{
        width: 6rem;;
    }
    .advantage-tow{
-        width: 100%;
+        width: 98%;
         height: 4.5rem;
     }  
+    .value-one {
+        color: rgb(153, 153, 153);
+        font-size: 70%;
+        width: 81%;
+        margin-left: 17%;
+        position: relative;
+        top: 1.5rem;
+    }
+    .bottom-obe a {
+        position: relative;
+        top: 1.4rem;
+        left: 2.3rem;
+    }
    
 }
 @media screen and (max-width:768px ) {
@@ -346,6 +379,27 @@ ul li{
     }
     .advantage-tow{
        margin: 0px;
+       padding: 0px;
+    }
+    .advantage-tow {
+        width: 100%;
+        height: 4.5rem;
+    }
+    #advantage{
+        padding: 0px;
+    }
+    .number-a {
+        display: inline-block;
+        width: 0.9rem;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        font-weight: bold;
+        font-size: 170%;
+        font-family: "微软雅黑";
+        position: absolute;
+        left: 0.3rem;
+        top: 0.5rem;
+        background: url(../img/img5.png) no-repeat;
     }
 }
 
@@ -386,40 +440,15 @@ ul li{
     position: relative;
     background: #ffffff;  
 }
-.number-a{
-    display: inline-block;
-    width: 0.9rem;
-    height: 0.9rem;
-    line-height: 0.9rem;
-    background: url(../img/img5.png)no-repeat;
-    font-weight: bold;
-    font-size: 170%;
-    font-family: "微软雅黑";
-    position: absolute;
-    left: 0.3rem;
-    top: 0.5rem;
-}
 .number-c{
     color: rgb(43, 195, 172);
-    position: absolute;
-    left: 1.5rem;
-    top: 0.3rem;
-    font-size: 130%;
 }
 .number-d{
-    color: #666666;
+    color: #9c9fa8;
     font-weight: 0;
-    position: absolute;
-    left: 1.5rem;
-    top: 0.7rem;
 }
 .value-one{
     color: rgb(153, 153, 153);
-    font-size: 90%;
-    width: 80%;
-    margin-left: 20%;
-    position: relative;
-    top: 1.2rem;
 }
 .value-one p{
     height: 0.35rem;
@@ -434,6 +463,39 @@ ul li{
     text-align: left;
 }
 @media screen and (min-width:1025px ) {
+    .number-a{
+        display: inline-block;
+        width: 0.9rem;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        background: url(../img/img5.png)no-repeat;
+        font-weight: bold;
+        font-size: 170%;
+        font-family: "微软雅黑";
+        position: absolute;
+        left: 0.3rem;
+        top: 0.5rem;
+    }
+    .number-d{
+        position: absolute;
+        left: 1.45rem;
+        top: 0.9rem;
+        font-size: 100%;
+    }
+    .number-c{
+        position: absolute;
+        left: 1.45rem;
+        top: 0.5rem;
+        font-size: 130%;
+    }
+    .value-one{
+        color: rgb(153, 153, 153);
+        font-size: 90%;
+        width: 80%;
+        margin-left: 20%;
+        position: relative;
+        top: 1.6rem;
+    }
     .body-we .we-ul span{
         float: right;
         position: relative;
@@ -510,9 +572,39 @@ ul li{
     .super-ul .superli{
         font-size: 100%;
     }
+    .number-a{
+        display: inline-block;
+        width: 0.9rem;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        background: url(../img/img5.png)no-repeat;
+        font-weight: bold;
+        font-size: 170%;
+        font-family: "微软雅黑";
+        position: absolute;
+        left: 0.1rem;
+        top: 0.5rem;
+    }
 }
 
 @media screen and (max-width:1024px ) {
+    .number-d{
+        position: absolute;
+        left: 1.15rem;
+        top: 0.9rem;
+        font-size: 100%;
+    }
+    .number-c{
+        position: absolute;
+        left: 1.15rem;
+        top: 0.5rem;
+        font-size: 130%;
+    }
+   
+    #advantage{
+        padding: 0px;
+    }
+   
     .we-ul .back-li{
         background: url(../img/img11.png) no-repeat;
         background-position: 4.09rem 0.9rem;
@@ -520,8 +612,8 @@ ul li{
     .we-ul span{
         float: right;
         position: relative;
-        bottom: 1.16rem;
-        right: 1.17rem;
+        bottom: 0.92rem;
+        right: 1.19rem;
         font-size: 150%;
         font-weight: bold;
         font-family: "微软雅黑";
@@ -586,6 +678,19 @@ ul li{
     }
     .body-we .we-ul .back-li{
         background: url();
+    }
+    .number-a{
+        display: inline-block;
+        width: 0.9rem;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        background: url(../img/img5.png)no-repeat;
+        font-weight: bold;
+        font-size: 170%;
+        font-family: "微软雅黑";
+        position: absolute;
+        left: 0.1rem;
+        top: 0.5rem;
     }
     .we-left {
         width: 100%;

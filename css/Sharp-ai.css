@@ -341,7 +341,7 @@ ul li{
         top: 1.4rem;
         left: 2.3rem;
     }
-   
+    
 }
 @media screen and (max-width:768px ) {
 	.ul-round,.five-round,.tow-round,.four-round,.theer-round{
@@ -1191,20 +1191,27 @@ td{
     }
 }
 
-@media screen and (max-width:550px ) {
+@media screen and (max-width:550px ) { 
+    .number-value{
+        white-space: initial;
+        width: 5.8rem;
+    } 
     #super-div{
         display: block;
     }
-    
     .td-noe .number-noe{
         width: 80%;
         height: 2.5rem;
         padding-top: 0.33rem;
+        white-space: initial;
+        width: 5.8rem;
     }
     .td-theer .number-tow{
         width: 80%;
         height: 2.5rem;
         padding-top: 0.4rem;
+        white-space: initial;
+        width: 5.8rem;
     }
     .number-sort{
         width: 70%;
@@ -1221,7 +1228,7 @@ td{
         font-size: 0.5rem;
         position: relative;
         bottom: 0.128rem;
-        left: 0.3rem;   
+        left: 0.4rem;   
     }
     #num-right{
         color: rgb(43, 195, 172);
@@ -1231,7 +1238,7 @@ td{
         font-size: 0.5rem;
         position: relative;
         bottom: 0.2rem;
-        left: 0.3rem;
+        left: 0.4rem;
     }
     #num-sort{   
         font-size: 120%;
@@ -1289,6 +1296,25 @@ td{
         position: relative;
         top:8rem;
         left: -5.8rem;
+    }
+    #posotopm-one{
+        transform:translate(5px,0.8rem);
+        transform:skewX();
+    }
+    #posotopm-tow{
+        transform:translate(0px,-0.8rem)
+    }
+    #posotopm-theer{
+        transform:translate(0px,-2.3rem)
+    }
+    #posotopm-four{
+        transform:translate(0px,2.8rem)
+    }
+    #posotopm-five{
+        transform:translate(0px,9rem)
+    }
+    .body-img{
+        margin-top: 1rem;
     }
 }
 .body-process .process-div{
@@ -1434,8 +1460,8 @@ td{
         color: rgb(43, 195, 172);
         font-family: "微软雅黑";
         position: relative;
-        left: 0.18rem;
-        top: -0.04rem;
+        left: 0.25rem;
+        top: -0.01rem;
     }
     .order-ul .order-lib{
         height: 0.65rem;

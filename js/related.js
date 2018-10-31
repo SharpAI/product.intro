@@ -8,7 +8,7 @@ $(function() {
     })
     /*跳转到首页 */
     $("#Home_page").click(function(){
-        location.href = "Shar-ai.html";
+        location.href = "sharpai-index.html";
     })
    
 })

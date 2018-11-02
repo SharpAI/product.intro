@@ -341,7 +341,7 @@ ul li{
         top: 1.4rem;
         left: 2.3rem;
     }
-   
+    
 }
 @media screen and (max-width:768px ) {
 	.ul-round,.five-round,.tow-round,.four-round,.theer-round{
@@ -826,6 +826,7 @@ ul li{
     color: #9babb4;
     text-align: left;
     height: 0.5rem;
+    font-size: 14px;
 }
 .super-ul li:last-child{
     height: 2rem;
@@ -1085,35 +1086,38 @@ td{
     #super-div{
         display: none;
     }
+    .img-td{
+        display: none;
+    }
     .zero-one{
         position: relative;
-        top: 1.08rem;
+        top: 0rem;
         left: 0.33rem;
     }
     .zero-tow{
         position: relative;
-        top: 2.48rem;
+        top: -0.2rem;
         left: 0.33rem;
     }
     .zero-therr{
         position: relative;
-        top: 4.4rem;
+        top: -0.4rem;
         left: 0.33rem;
     }
     .zero-four{
         position: relative;
-        top: 2.855rem;
-        left: -0.25rem;
+        top: 7.8rem;
+        left: -7rem;
     }
     .zero-five{
         position: relative;
-        top: 4.47rem;
-        left: -0.25rem;
+        top: 7.6rem;
+        left: -7rem;
     }
     .zero-six{
         position: relative;
-        top:6.4rem;
-        left: -0.25rem;
+        top:7.4rem;
+        left: -7rem;
     }
     .td-noe .number-noe{
         width: 100%;
@@ -1146,12 +1150,13 @@ td{
         font-size: 0.55rem;
         position: relative;
         bottom: 0.135rem;
-        left: 0.46rem;
+        left: 0.57rem;
     }
     .td-theer .number-tow{
         width: 100%;
         height: 2.8rem;
         padding-top: 0.4rem;
+        background: url(../img/img12.png) 0% 0% / 100% 93% no-repeat;
     }
     #num-right{
         color: rgb(43, 195, 172);
@@ -1161,19 +1166,22 @@ td{
         font-size: 0.55rem;
         position: relative;
         bottom: 0.1rem;
-        left: 1.05rem;
+        left: 0.57rem;
+        text-align: left;
     }
     #num-fa{
         color: rgb(43, 195, 172);
         font-size: 120%;
         font-family: '微软雅黑';
         position: relative;
-        left: 0.45rem;
+        left: 1.2rem;
+        text-align: left;
     }
     #num-vals{
         position: relative;
-        left: 0.45rem;
+        left: 1.2rem;
         font-size: -0.2rem;
+        text-align: left;
     }
     .number-rank{
         width: 74%;
@@ -1183,19 +1191,27 @@ td{
     }
 }
 
-@media screen and (max-width:550px ) {
+@media screen and (max-width:550px ) { 
+    .number-value{
+        white-space: initial;
+        width: 5.8rem;
+    } 
     #super-div{
         display: block;
     }
     .td-noe .number-noe{
-        width: 100%;
-        height: 3rem;
+        width: 80%;
+        height: 2.5rem;
         padding-top: 0.33rem;
+        white-space: initial;
+        width: 5.8rem;
     }
     .td-theer .number-tow{
-        width: 100%;
-        height: 3rem;
+        width: 80%;
+        height: 2.5rem;
         padding-top: 0.4rem;
+        white-space: initial;
+        width: 5.8rem;
     }
     .number-sort{
         width: 70%;
@@ -1209,31 +1225,31 @@ td{
         color: rgb(43, 195, 172);
         word-wrap: break-word;
         word-break: break-all;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         position: relative;
-        bottom: 0.135rem;
-        left: 0.53rem;   
+        bottom: 0.128rem;
+        left: 0.4rem;   
     }
     #num-right{
         color: rgb(43, 195, 172);
         word-wrap: break-word;
         word-break: break-all;
         font-family: "微软雅黑";
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         position: relative;
         bottom: 0.2rem;
-        left: 1.9rem;
+        left: 0.4rem;
     }
     #num-sort{   
         font-size: 120%;
         font-family: '微软雅黑';
         position: relative;
-        left: 1.2rem;
+        left: 1rem;
         
     }
     #num-val{
         position: relative;
-        left: 1.2rem;
+        left: 1rem;
         font-size: 70%;
     }
     #num-fa{
@@ -1241,15 +1257,64 @@ td{
         font-size: 120%;
         font-family: '微软雅黑';
         position: relative;
-        left: 1.2rem;
+        left: 1rem;
     }
     #num-vals{
         position: relative;
-        left: 1.2rem;
+        left: 1rem;
         font-size: -0.2rem;
     }
     .number-rank{
         width: 65%;
+    }
+    .zero-one{
+        position: relative;
+        top: 0rem;
+        left: 0.33rem;
+    }
+    .zero-tow{
+        position: relative;
+        top:  0.2rem;
+        left: 0.33rem;
+    }
+    .zero-therr{
+        position: relative;
+        top: 0.2rem;
+        left: 0.33rem;
+    }
+    .zero-four{
+        position: relative;
+        top: 7.8rem;
+        left: -5.8rem;
+    }
+    .zero-five{
+        position: relative;
+        top: 7.9rem;
+        left: -5.8rem;
+    }
+    .zero-six{
+        position: relative;
+        top:8rem;
+        left: -5.8rem;
+    }
+    #posotopm-one{
+        transform:translate(5px,0.8rem);
+        transform:skewX();
+    }
+    #posotopm-tow{
+        transform:translate(0px,-0.8rem)
+    }
+    #posotopm-theer{
+        transform:translate(0px,-2.3rem)
+    }
+    #posotopm-four{
+        transform:translate(0px,2.8rem)
+    }
+    #posotopm-five{
+        transform:translate(0px,9rem)
+    }
+    .body-img{
+        margin-top: 1rem;
     }
 }
 .body-process .process-div{
@@ -1395,8 +1460,8 @@ td{
         color: rgb(43, 195, 172);
         font-family: "微软雅黑";
         position: relative;
-        left: 0.18rem;
-        top: -0.04rem;
+        left: 0.25rem;
+        top: -0.01rem;
     }
     .order-ul .order-lib{
         height: 0.65rem;

@@ -11,7 +11,7 @@ $(function(){
      *　跳转到淘宝购买商品
      */
     $("#location-btn button").click(function(){
-        location.href ="https://item.taobao.com/item.htm?id=565957238941";
+        location.href ="https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-12617595122.3.33ff4679kgbl66&id=577748526182";
     })
 
     /**

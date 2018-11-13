@@ -1,11 +1,8 @@
 $(function(){
+    
     /*跳转到首页 */
     $("#Home_page").click(function(){
         location.href = "sharpai-index.html";
-    })
-    //跳转到联系我们
-    $("#contact_we").click(function(){
-        location.href = "Help_center.html";
     })
     
     /**
@@ -16,7 +13,11 @@ $(function(){
     },function(){
         $(this).find("a").css("text-decoration","none")
     })
-
+    
+    //跳转到联系我们
+     $("#contact_we").click(function(){
+         location.href = "Help_center.html";
+     })
     
    $("#navigation-ul li").on('touchstart',function(){
         $(this).addClass("background");

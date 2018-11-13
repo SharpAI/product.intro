@@ -9,7 +9,7 @@ body{
     position: fixed;
     top: 0px;
 }
-.index-head ul li:last-child{
+#Help_center{
     background: #02b2b5;
     color: #ffffff;
 }

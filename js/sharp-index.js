@@ -7,6 +7,10 @@ $(function(){
         location.href = "help.html";
     })
 
+    //跳转到联系我们
+    $("#Help_center").click(function(){
+        location.href = "Help_center.html";
+    })
     /**
      *　跳转到淘宝购买商品
      */

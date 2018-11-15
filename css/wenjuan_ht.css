@@ -282,7 +282,11 @@ a.zjxx {
     line-height: 35px;
     display: inline-block;
     font-weight: bold;
+<<<<<<< HEAD
+    color: #02b2b5;
+=======
     color: #09c;
+>>>>>>> a90b5fdde24e3431c0bd5e6ca0688cdc48c4274a
     font-size: 17px;
     text-align: center;
 }

@@ -92,11 +92,23 @@ $(function(){
     }
     //发送邮件
     function mailsome1(){
+<<<<<<< HEAD
+        var email_check = $(".email_check").val();
+        var text_check = $(".text_check").val();
+        var name_check = $(".name_check").val();
+        $.post("http://127.0.0.1:8888/email",{
+          email:email_check,
+          text:text_check,
+          name:name_check
+        },function(data){
+            console.log("data=="+data);
+=======
         var eamil = $(".email_check").val()
         $.post("http://127.0.0.1:8090/email",{
           Emailname:eamil
         },function(data,status){
           alert("Data: " + data + "\nStatus: " + status);
+>>>>>>> a90b5fdde24e3431c0bd5e6ca0688cdc48c4274a
         },JSON);
     }
    

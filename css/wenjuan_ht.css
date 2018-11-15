@@ -343,3 +343,42 @@ a.zjxx {
     text-decoration:none;
     color: #4e4e61;
 }
+
+/* footer部分*/
+.footer .footer-p{
+    height: 8.6rem;
+    background-color: #252c36;
+    color: rgb(169, 169, 169);
+    text-align: center;
+    line-height: 8.6rem;
+}
+.img-responsive{
+    width: 100% \9;
+}    
+.introduce{
+    background: #ffffff;
+    width: 100%;
+    height: 30.83rem;
+    padding-top: 2rem;
+}
+.sharp-img img{
+    margin: auto;
+    margin-top: 3rem;
+}
+.sharp-text .sharp-value{
+    width: 56%;
+    margin: auto;
+    color: #666666;
+}
+.advantages{
+    background: #f8fdfc;
+    width: 100%;
+    padding-top: 2rem;
+    position: relative;
+}
+.advantages .dot-yellow,.dot-blue,.dot-green,.dot-red,.dot-greens{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    z-index: 9999;
+}

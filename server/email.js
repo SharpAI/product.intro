@@ -30,7 +30,7 @@ app.post('/email', function (req, res) {
             if(error){
                 console.log("fail: " + error);
             }else{
-                 console.log('邮件已发送！'+response.message);
+                 console.log('邮件已发送！');
                  var json = JSON.stringify({ result: 'ok'});
                  res.end(json)
             }

@@ -1,7 +1,7 @@
 $(function(){
     /*跳转到首页 */
     $("#Home_page").click(function(){
-        location.href = "sharpai-index.html";
+        location.href = "index.html";
     })
     //跳转到联系我们
     $("#contact_we").click(function(){

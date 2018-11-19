@@ -96,7 +96,7 @@ $(function(){
         var text_check = $(".text_check").val();
         var name_check = $(".name_check").val();
     
-        $.post("http://192.168.31.168:5000/",{
+        $.post("http://120.76.233.234:8888/feedback",{
           customer_address:email_check,
           message:text_check,
           customer_name:name_check,

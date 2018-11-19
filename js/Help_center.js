@@ -95,12 +95,14 @@ $(function(){
         var email_check = $(".email_check").val();
         var text_check = $(".text_check").val();
         var name_check = $(".name_check").val();
-        $.post("http://127.0.0.1:8888/email",{
-          email:email_check,
-          text:text_check,
-          name:name_check
+    
+        $.post("http://120.76.233.234:8888/feedback",{
+          customer_address:email_check,
+          message:text_check,
+          customer_name:name_check,
+          key:"actiontec"
         },function(data){
-            console.log("data=="+data);
+            alert("data=="+data);
         },JSON);
     }
    

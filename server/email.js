@@ -21,8 +21,8 @@ app.post('/email', function (req, res) {
         //发送邮件
         var option = {
             from:"923948307@qq.com",//发送邮件的邮箱
-            //to:"zezhang@actiontec.com" //目标邮箱
-            to:'gliu@actiontec.com'
+            to:"zezhang@actiontec.com" //目标邮箱
+            //to:'gliu@actiontec.com'
         }
         option.subject = 'hello'
         option.html= arr;

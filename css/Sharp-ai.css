@@ -34,11 +34,12 @@
 /* 这是身体的css */
 .body-ai{
     width: 100%;
-    padding: 5% 0px 4% 0px;
+    padding: 5% 0px 0% 0px;
+    margin-top: 1rem;
     font-weight: bold;
     font-family: "微软雅黑";
     color: black;
-    border-bottom: 1px solid rgb(222, 222, 222);
+    border-top: 1px solid rgb(222, 222, 222);
 }
 
 .semicircle{

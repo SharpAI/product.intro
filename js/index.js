@@ -9,7 +9,7 @@ $(function(){
     })
 
     $(".location-btn1").click(function(){
-        window.location = "https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-12617595122.2.33ff4679Hed5KU&id=577748526182"
+        window.location = "https://item.taobao.com/item.htm?spm=a230r.7195193.1997079397.8.1d1967f9ShREyM&id=591857403757&abbucket=3"
     })
     
     function showIndex(my_this){

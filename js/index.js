@@ -13,17 +13,22 @@ $(function(){
         if(index && index == 1){
             $(".video-show").css("display","none");
             $(".info-show").css("display","block")
-            $(".show-info-one img").attr("src","img/01.png")
+            $(".show-info-one").html("<img src='img/01.png' width='100%'>")
             $(".show-info-tow").html("人脸识别技术是基于人的脸部特征，对输入的人脸图像或者视频流 . 首先判断其是否存在人脸 , 如果存在人脸，则进一步的给出每个脸的位置、大小和各个主要面部器官的位置信息。并依据这些信息，进一步提取每个人脸中所蕴涵的身份特征，并将其与已知的人脸进行对比，从而识别每个人脸的身份。")
         }else if(index && index == 2){
             $(".video-show").css("display","none");
             $(".info-show").css("display","block")
-            $(".show-info-one img").attr("src","img/02.png")
-            $(".show-info-tow").html("无缝跟踪搜索摄像设备中的人体，实时发送人体所处位置的坐标图像，输出人体活动GIF图。人形识别是对人体进行一系列的训练和处理，识别出的人体可进行姿势估算，特征提取，信息对比，从而实现人体交叉多重识别和跟踪。")
+            $(".show-info-one").html("<img src='img/icon15.png' width='100%'><img src='img/icon16.png' width='100%'>")
+            $(".show-info-tow").html("用GAN实现陌生人聚类功能，让未知人员也有唯一的ID，实现了未知数据识别。陌生人聚类结合监督学习和非监督学习，从而实现了一系列场景下的应用：人流统计，陌生人频繁活动警报，公安追捕可疑人员等。") 
         }else if(index && index == 3){
             $(".video-show").css("display","none");
             $(".info-show").css("display","block")
-            $(".show-info-one img").attr("src","img/03.png")
+            $(".show-info-one").html("<img src='img/02.png' width='100%'>")
+            $(".show-info-tow").html("无缝跟踪搜索摄像设备中的人体，实时发送人体所处位置的坐标图像，输出人体活动GIF图。人形识别是对人体进行一系列的训练和处理，识别出的人体可进行姿势估算，特征提取，信息对比，从而实现人体交叉多重识别和跟踪。")
+        }else if(index && index == 4){
+            $(".video-show").css("display","none");
+            $(".info-show").css("display","block")
+            $(".show-info-one").html("<img src='img/03.png' width='100%'>")
             $(".show-info-tow").html("大范围提取数据，通过摄像头捕捉检测，我们可以定制化地针对不同应用场景提供模型。比如在施工过程中，我们的产品监测到工人未带安全帽，未按规定着装之类的，给予警告。")
         }else{
             $(".video-show").css("display","block");

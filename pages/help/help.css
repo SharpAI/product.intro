@@ -52,7 +52,20 @@ body {
 .item1, .item2 {
     padding: 0
 }
-
+.sharpai-text{
+    position:absolute;
+    top:10px;
+    left:10px;
+    color:#fff;
+    font-size: 30px;
+    z-index: 10000;
+}
+  
+@media screen and (max-width:680px){
+    .sharpai-text {
+      top: 50px;
+     }
+}
 
 /* .help-content .nav {
     height: 100%;

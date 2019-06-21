@@ -98,6 +98,21 @@
     max-width: 192px;
 }
 
+.sharpai-text{
+    position:absolute;
+    top:10px;
+    left:10px;
+    color:#fff;
+    font-size: 30px;
+    z-index: 10000;
+}
+  
+@media screen and (max-width:680px){
+    .sharpai-text {
+      top: 50px;
+     }
+}
+
 footer {
     /* width: 100vw; */
     /* height: 271px; */
